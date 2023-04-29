@@ -119,8 +119,25 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:THE_VEGETATION_ENGINE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Memory.dll"
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Pooling.dll"
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Rendering.dll"
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Rendering.Nature.dll"
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Rendering.Nature.Editor.dll"
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Threading.dll"
+-r:"Assets/Visual Design Cafe/Nature Shaders/Plugins/VisualDesignCafe.Nature.dll"
+-r:"Assets/Visual Design Cafe/Nature Shaders/Plugins/VisualDesignCafe.Nature.Editor.dll"
+-r:"Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Editor.Community.dll"
+-r:"Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Editor.Events.dll"
+-r:"Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Editor.PackageManager.dll"
+-r:"Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Editor.Web.dll"
+-r:"Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Packages.dll"
+-r:"Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.Editor.ShaderX.dll"
+-r:"Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.dll"
+-r:"Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.Editor.dll"
 -r:"D:/Unity/UnityEditor/2022.2.17f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/Unity/UnityEditor/2022.2.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Unity/UnityEditor/2022.2.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
